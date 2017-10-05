@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="/style.css" />
+		<title>Remix</title>
+    </head>
+	
+	<body>
+		<script>
+			function PlaySound(son) {
+			var path = "http://huntermorris.ddns.net/wp-content/uploads/"
+			var snd = new Audio(path + son + ".mp3");
+			snd.play();
+			}
+			function StopSound() {
+			snd.stop();
+			}
+		</script>
+		
+		<section>
+			<h1>Les remix de Bob Morris !</h1>
+			<h2>Version Web !</h2>
+		</section>
+		<section>
+			<!--<button onclick="StopSound()">Arreter tout les sons</button>
+			<br />-->
+			<button onclick="PlaySound('Bob_Remix_Moi_Jmet_une_toque')">Bob Remix - Moi J'met une toque !</button>
+			<button onclick="PlaySound('Bob_Morris_VS_Culture_Beat_Mix_antistatique_I_Short_Edit')">Bob Morris VS Culture Beat - Mix antistatique I [Short Edit]</button>
+			<button onclick="PlaySound('Bob_Morris_VS_RealJoy_Mix_antistatique_II_Karaoke')">Bob Morris VS RealJoy - Mix antistatique II [Karaoke]</button>
+			<button onclick="PlaySound('Bob_Morris_VS_Culture_Beat_Mix_antistatique_III_Corsair_Heaven_Mix')">Bob Morris VS Culture Beat - Mix antistatique III [Corsair Heaven Mix]</button>
+			<button onclick="PlaySound('Bob_Morris_VS_Rick_Astley_Mix_antistatique_IV_Juge_Bourreau_Mix')">Bob Morris VS Rick Astley - Mix antistatique IV [Juge & Bourreau Mix]</button>
+			<button onclick="PlaySound('Bob_Morris_VS_Macarena_-_Mix_antistatique_V_dust_master_radio_edit')">Bob Morris VS Macarena - Mix antistatique V [dust master radio edit]</button>
+			<p>Fait par <a href="https://www.youtube.com/channel/UC00_SCiCfbRnXgtZoPFTzlw">Hunter Gunter</a>  |  <a href="https://github.com/hunter-gunter/soundbob">GitHub de la soundbox version web !</a></p>
+			<h5>Version 1.0 (changelog : Les remix de Bob Morris sont maintenant présent sur le site !)</h5>
+		</section>
+	</body>
+</html>
